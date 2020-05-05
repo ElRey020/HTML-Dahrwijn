@@ -1,0 +1,174 @@
+* {   /* Overall Style Settings*/
+				margin: 0px;
+				padding: 0px;
+				font-family: "SF-UI-Text-MediumItalic", Arial, sans-serif;
+
+}
+
+
+	header{
+		overflow:visible;
+		opacity:100;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+}
+
+		header:hover{
+			}
+
+
+
+
+	
+	
+	body	{
+		background-image: url("Banner_Shop_Logo.png");
+		background-color: #191919;
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+
+/* Header*/
+ul{
+	top:0;
+	position: fixed;
+  list-style-type: none;
+	background-color: white;
+	scroll-behavior: smooth;
+	height:8%;
+	width:100%;
+	z-index: 4;
+
+
+
+
+
+}
+
+nav li:hover{
+	opacity: 1;
+	padding: 18px 35px;
+	background-color: white;
+	height: 110px;
+
+}
+
+li a {
+	float: left;
+  color: black;
+	padding-top: 26px;
+	padding-left: 90px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+	background: none;
+	font-style: normal;
+	margin-left: 12px;
+	margin-right: 110px;
+	font-family: "Ubuntu";
+	transition:0.4;
+
+
+}
+
+		li a:hover{
+			color:blue;
+
+		}
+		ul i{
+			transform: scale(1.2);
+			border:none;
+			outline:none;
+
+		}
+		ul i:active{
+			color:red;
+
+		}
+
+		ul a{
+			border:none;
+			outline:none;
+
+
+			}
+
+.logo {
+
+	float: left;
+	padding: 5px 16px;;
+	background: none;
+	height: 75px;
+	width: 75px;
+	margin-left: 35px;
+	line-height: 50%;
+
+
+
+}
+
+.search-box{
+
+
+  background:black;
+  border:5px;
+  height: 20px;
+	width: 350px;
+  border-radius: 50px;
+  padding:15px;
+	float: right;
+	color: black;
+	margin-right: 110px;
+	margin-bottom: 10px;
+
+
+
+}
+
+
+.search-btn{
+	color: white;
+  float:left;
+	margin-top: -45px;
+	margin-left: 380px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	text-decoration: none;
+
+}
+
+.search-txt{
+	background: none;
+  outline:none;
+	border:none;
+  padding: 0;
+  color:white;
+  float:left;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+	margin-left: 12px;
+	margin-top: -11px;
+	width: 320px;
+	transition:0.5;
+	font-family: "Open Sans";
+	font-style: oblique;
+
+ }
+
+ .logo img{
+	 background:none;
+	 text-decoration: none;
+	 margin: auto;
+	 margin-top: 50px;
+	 transform: scale(0.5);
+
+
+ }
